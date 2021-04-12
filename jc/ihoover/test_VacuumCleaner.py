@@ -30,4 +30,4 @@ class TestVaccumCleaner(TestCase):
         orientation = "N"
 
         # Then
-        self.assert_(VacuumCleaner(1, 10, orientation).orientation == orientation)
+        self.assertTrue(VacuumCleaner(1, 10, orientation).orientation == orientation)

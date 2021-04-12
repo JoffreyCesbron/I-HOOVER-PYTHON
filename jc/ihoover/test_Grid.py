@@ -27,4 +27,4 @@ class TestGrid(TestCase):
         max_y = 10
 
         # Then
-        self.assert_(Grid(max_x, max_y).max_x == max_x)
+        self.assertTrue(Grid(max_x, max_y).max_x == max_x)

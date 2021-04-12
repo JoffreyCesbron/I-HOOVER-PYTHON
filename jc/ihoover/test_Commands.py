@@ -7,7 +7,7 @@ class TestCommands(TestCase):
 
     def test_error_commands(self):
         # Given
-        commands = "A"
+        commands = "Z"
 
         # Then
         self.assertRaises(ValueError, Commands, commands)
@@ -17,4 +17,4 @@ class TestCommands(TestCase):
         commands = "DGGA"
 
         # Then
-        self.assert_(Commands(commands).values == "DGGA")
+        self.assertTrue(Commands(commands).values == "DGGA")
