@@ -10,4 +10,5 @@ if __name__ == '__main__':
     vaccum_cleaner = VacuumCleaner(5, 5, Ordinal.N.name)
     commands = Commands("DADADADAA")
 
+
     vaccuum_cleaner_position = move_processing(grid, vaccum_cleaner, commands)

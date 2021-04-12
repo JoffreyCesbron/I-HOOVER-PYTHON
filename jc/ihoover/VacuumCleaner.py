@@ -1,6 +1,5 @@
 from Ordinal import Ordinal
 
-
 class VacuumCleaner:
 
     def __init__(self, x, y, orientation):

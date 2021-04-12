@@ -1,5 +1,4 @@
 from unittest import TestCase
-
 from Commands import Commands
 
 

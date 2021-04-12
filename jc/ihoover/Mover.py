@@ -66,7 +66,7 @@ def try_to_move_forward(vacuum_cleaner: VacuumCleaner, grid: Grid):
 
 
 def move_processing(grid: Grid, vaccuum_cleaner: VacuumCleaner, commands: Commands):
-    printPositionBefore(vaccuum_cleaner, commands)
+    print_position_before(vaccuum_cleaner, commands)
 
     for command in commands.values:
         if command == 'A': vaccuum_cleaner = try_to_move_forward(vaccuum_cleaner, grid)
@@ -81,7 +81,7 @@ def print_position_after(vaccuum_cleaner: VacuumCleaner):
     print("")
 
 
-def printPositionBefore(vaccuum_cleaner: VacuumCleaner, commands: Commands):
+def print_position_before(vaccuum_cleaner: VacuumCleaner, commands: Commands):
     print(f"before doing [{commands.values[1]}] and remaining [{commands.values[1:]}]:")
     print(f"x={vaccuum_cleaner.x}, y={vaccuum_cleaner.y}, orientation={vaccuum_cleaner.orientation} ")
     print("")

@@ -1,6 +1,5 @@
 import re
 
-
 class Commands:
 
     def __init__(self, values):
