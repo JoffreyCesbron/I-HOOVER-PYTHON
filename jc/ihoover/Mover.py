@@ -73,7 +73,6 @@ def move_processing(grid: Grid, vaccuum_cleaner: VacuumCleaner, commands: Comman
         if command == 'D': vaccuum_cleaner = orientate_to_the_right(vaccuum_cleaner)
         if command == 'G': vaccuum_cleaner = orientate_to_the_left(vaccuum_cleaner)
 
-    print("retour")
     return vaccuum_cleaner
 
 

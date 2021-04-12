@@ -5,7 +5,7 @@ from Ordinal import Ordinal
 from VacuumCleaner import VacuumCleaner
 
 if __name__ == '__main__':
-    grid = Grid(5, 10)
+    grid = Grid(10, 10)
     vaccum_cleaner = VacuumCleaner(5, 5, Ordinal.N.name)
     commands = Commands("DADADADAA")
 
